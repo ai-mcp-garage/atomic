@@ -18,11 +18,10 @@ Write the output in a markdown file in the workspace. If the user doesn't specif
 ---
 
 ## Output (STRICT)
-- Output MUST be wrapped in **four backticks** (````) to allow safe nesting.
 - Output consists of **one or more atomic markdown notes**.
 - Each note MUST include YAML frontmatter.
 
-````markdown
+```markdown
 ---
 id: <stable-slug-or-uuid>
 title: <clear, human-readable title>
@@ -38,7 +37,7 @@ confidence: <low | medium | high>
 ---
 <note body>
 
-````
+```
 
 ⸻
 
